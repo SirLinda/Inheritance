@@ -1,0 +1,35 @@
+package za.ac.wits;
+
+/**
+ *@author SirLinda
+ *
+ */
+
+class Student {
+	private String name;
+	private long studentNum;
+	public Student(final String name, final long studentNum) throws Exception {
+		// validations
+		if(name==null) {
+			throw new Exception("Invalid name");
+		}
+		if(studentNum<100000) {
+			throw new Exception("Invalid student number");
+		}
+		this.name = name;
+		this.studentNum = studentNum;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public long getStudentNum() {
+		return studentNum;
+	}
+	public void setStudentNum(long studentNum) {
+		this.studentNum = studentNum;
+	}
+	
+}

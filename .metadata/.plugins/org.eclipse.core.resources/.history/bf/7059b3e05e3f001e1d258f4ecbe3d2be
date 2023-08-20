@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package za.ac.wits;
+
+/**
+ *@author SirLinda
+ *
+ */
+class ScienceStudent extends Student{
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numberOfSnakes, widthAndHieght, playingArea;
+		
+		final int FOUTH_NUMBER = 1;
+		
+		Scanner inn = new Scanner(System.in);
+		numberOfSnakes = inn.nextInt();
+		widthAndHieght = inn.nextInt();
+		playingArea = inn.nextInt();
+		
+		int x,y;
+		
+		for(int i=0; i < numberOfSnakes; i++) {
+			x = inn.nextInt();
+			y = inn.
+		}
+		inn.close();
+		System.out.print(false);
+	}
+
+}

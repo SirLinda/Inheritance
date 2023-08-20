@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class main {
+	
+	public static void printBoard(final int[][] myBoard, int widthAndHieght) {
+		
+		for(int i=0; i < widthAndHieght; i++) {
+			for(int j=0; j < widthAndHieght; j++) {
+				System.out.print(myBoard[i][j]+" ");
+			}
+			System.out.print("\n");
+		}
+		
+	}
+	public static void drawSnake() {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*int numberOfSnakes, widthAndHieght, playingArea;
+		
+		final int FOUTH_NUMBER = 1;
+		
+		Scanner inn = new Scanner(System.in);
+		numberOfSnakes = inn.nextInt();
+		widthAndHieght = inn.nextInt();
+		playingArea = inn.nextInt();
+		
+		int xHead, yHead, xTail, yTail;
+		
+		for(int i=0; i < numberOfSnakes; i++) {
+			xHead = inn.nextInt();
+			yHead = inn.nextInt();
+			xTail = inn.nextInt();
+			yTail = inn.nextInt();
+		}
+		inn.close();*/
+		Scanner inn = new Scanner(System.in);
+		int board[][] = new int[3][3];
+		for(int i=0; i < 3; i++) {
+			for(int j=0; j < 3; j++) {
+				board[i][j] = inn.nextInt();
+			}
+		}
+		printBoard(board,3);
+	}
+
+}

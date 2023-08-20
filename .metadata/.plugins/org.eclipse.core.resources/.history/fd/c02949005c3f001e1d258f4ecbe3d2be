@@ -1,0 +1,16 @@
+package za.ac.wits;
+
+class Student {
+	private String name;
+	private long studentNum;
+	public Student(final String name, final long studentNum) {
+		// validations
+		if(name==null) {
+			throw new Exception("Invalid name");
+		}
+		if(studentNum<100000) {
+			throw new Exception("Invalid student number");
+		}
+	}
+
+}

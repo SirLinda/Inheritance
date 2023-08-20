@@ -1,0 +1,17 @@
+package za.ac.wits;
+
+public class main {
+
+	public static void main(String[] args) {
+		// Test
+		try {
+			Student s1 = new Student("SirLinda",10000);
+			System.out.println(s1.getName());
+			System.out.println(s1.getStudentNum());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

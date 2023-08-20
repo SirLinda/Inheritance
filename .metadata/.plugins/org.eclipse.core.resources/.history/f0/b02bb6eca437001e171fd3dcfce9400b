@@ -1,0 +1,16 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numberOfSnakes, width, height, playingArea;
+		final int FOUTH_NUMBER = 1;
+		
+		for(int i=0; i < numberOfSanke; i++) {
+			
+		}
+		System.out.print(false);
+	}
+
+}

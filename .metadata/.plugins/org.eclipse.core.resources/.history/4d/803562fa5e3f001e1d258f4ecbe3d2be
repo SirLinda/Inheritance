@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package za.ac.wits;
+
+/**
+ *@author SirLinda
+ *
+ */
+class ScienceStudent extends Student{
+	private String field;
+	public ScienceStudent(String name, long studentNum, final String field) throws Exception {
+		super(name, studentNum);
+		// TODO Auto-generated constructor stub
+		if(field == null) {
+			throw new Exception("Invalid field");
+		}
+		this.field = field;
+	}
+	public String getField() {
+		return field;
+	}
+	public void setField(String field) {
+		this.field = field;
+	}	
+
+}
